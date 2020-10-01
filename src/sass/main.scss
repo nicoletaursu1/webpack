@@ -1,0 +1,22 @@
+@import 'fonts';
+
+$body-color: rgb(100, 50, 50);
+
+body {
+  background-color: $body-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+    font-weight: 800;
+    color: white;
+    line-height: 70vh;
+    font: 35px 'Courgette';
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
